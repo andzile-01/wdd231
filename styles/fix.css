@@ -1,0 +1,104 @@
+html{
+    max-width: 800px;
+}
+
+.responsive-image{
+    width: 80px;
+    height: auto;
+}
+.city-img{
+    /*justify-items: center;*/
+    
+    padding-left: 8px;
+    padding-right: auto;
+
+}
+
+h1{
+    text-align: center;
+    justify-content: center;
+    background-color: blue;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: "Roboto Condensed", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: italic;
+    
+
+}
+main{
+    display: flex;
+    align-items: stretch;
+    align-content: center;
+    flex-wrap: wrap;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h2, h3, h4{
+    font-family: "Roboto Condensed", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 25px;
+    text-align: center;
+    
+    border: 2px solid white;
+    background-color: blue;
+    color: white;
+}
+
+section{
+    /*width: 200px;*/
+    border: 2px solid black;
+    box-shadow: 2px;
+    margin: 10px;
+    
+}
+.section1{
+    min-height: 400px;
+    min-width: 400px;
+}
+.section2{
+    min-height: 400px;
+    min-width: 300px;
+}
+.section3{
+    min-height: 300px;
+    min-width: 725px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: black;
+}
+nav li{
+    display: block;
+}
+nav a:hover{
+    color: white;
+    border: 2px solid white;
+    
+}
+a{
+    text-decoration: none;
+}
+
+.web-head li{
+    display: inline-block;
+    border: 2px solid black;
+    color: white;
+    background-color: black;
+    justify-content: space-evenly;
+}
+footer{
+    text-align: center;
+    background-color: blue;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
